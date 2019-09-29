@@ -48,6 +48,20 @@ h1.registration
 		1px -1px 0 #33402a;
 }
 
+h1.menu
+{
+		font-family: 'Lato', sans-serif;
+		font-size: 32px;
+		color: #52504b;
+		letter-spacing: 1px;
+		font-weight: 400;
+		text-shadow:
+		1px 1px 0 #33402a,
+		-1px 1px 0 #33402a,
+		-1px -1px 0 #33402a,
+		1px -1px 0 #33402a;
+}
+
 input[type=text],
 input[type=password],
 input[type=e-mail]
