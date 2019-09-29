@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Budżet osobisty</title>
+	<meta name="description" content="Aplikacja internetowa do prowadzenia budżetu osobistego." />
+	<meta name="keywords" content="css, odcinek" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="containerE">
+		<form>
+			
+			<h1 class="expenses">Wydatki<h1>
+			
+			<div class="expense">
+				<label>Kwota<input type="number"name="expanse" step="0.01" min="0"></label>
+			</div>
+			
+			<div class="expense">
+				<label>Data<input type="date" id="date" name="date" min="2000-01-01" value="2019-09-30"></label>
+			</div>
+			
+			<div class="expense">
+					<label for="payingMethod">Sposób płatności</label>
+						<select class="select-css" name="payingMethod">
+							<option value="g" selected>gotówka</option>
+							<option value="kd" >arta debetowa</option>
+							<option value="kk">karta kredytowa</option>
+						</select>
+			</div>
+			
+			<div class="expense">
+					<label for="category">Kategoria</label>
+						<select class="select-css" name="category">
+							<option value="j" selected>jedzenie</option>
+							<option value="m" >mieszkanie</option>
+							<option value="t">transport</option>
+							<option value="tel">telekomunikacja</option>
+							<option value="oz">opieka zdrowotna</option>
+							<option value="d">dzieci</option>
+							<option value="r">rozrywka</option>
+							<option value="w">wycieczka</option>
+							<option value="s">szkolenia</option>
+							<option value="k">książki</option>
+							<option value="o">oszczędności</option>
+							<option value="e">na emeryturę</option>
+							<option value="sd">spłata długów</option>
+							<option value="dar">darowizna</option>
+							<option value="iw">inne wydatki</option>
+						</select>
+			</div>
+			
+			<div class="expense">
+				<label for="comment">Komentarz 
+					<textarea name="comment" id="comment" rows="2" cols="30" maxlength="40"></textarea>
+				</label>	
+			</div>
+			
+			<div class="expense-buttons">
+				<a href="menu.html"><input type="button" value="Dodaj"></a>
+				<a href="menu.html"><input type="button" value="Anuluj"></a>
+			</div>
+			
+		</form>
+	</div>
+
+</body>
+</html>
