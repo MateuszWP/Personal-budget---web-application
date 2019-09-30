@@ -3,6 +3,7 @@ body
 	/* Background pattern from subtlepatterns.com */
 	background-image: url("img/dark-honeycomb.png");
 	font-size: 20px;
+	font-family: 'Lato', sans-serif;
 }
 
 #container
@@ -33,6 +34,13 @@ body
 		box-shadow: 3px 3px 10px 0px rgba(204,204,204,0.9);
 		border-radius: 20px 20px 20px 20px;
 		border: 5px solid #111f66;
+}
+
+#containerB
+{
+		width: 700px;
+		margin-left: auto;
+		margin-right: auto;
 }
 
 h1.logging
@@ -78,6 +86,20 @@ h1.menu
 }
 
 h1.expenses
+{
+		font-family: 'Lato', sans-serif;
+		font-size: 32px;
+		color: #52504b;
+		letter-spacing: 1px;
+		font-weight: 400;
+		text-shadow:
+		1px 1px 0 #33402a,
+		-1px 1px 0 #33402a,
+		-1px -1px 0 #33402a,
+		1px -1px 0 #33402a;
+}
+
+h1.balance
 {
 		font-family: 'Lato', sans-serif;
 		font-size: 32px;
@@ -318,3 +340,56 @@ input[type=button]:hover
 		background-color: #37b93d;
 }
 
+.square
+{
+		width: 300px;
+		float: left;
+		background-color: #a7b2d1;
+		padding: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 10px;
+		-webkit-box-shadow: 3px 3px 10px 0px rgba(204,204,204,0.9);
+		-moz-box-shadow: 3px 3px 10px 0px rgba(204,204,204,0.9);
+		box-shadow: 3px 3px 10px 0px rgba(204,204,204,0.9);
+		border-radius: 20px 20px 20px 20px;
+		border: 5px solid #111f66;
+		text-align: justify;
+}
+
+ul
+{
+	padding: 0;
+	list-style-type: none;
+}
+
+ul > li
+{
+	margin-top: 10px;
+	font-size: 20px;
+	text-align: left;
+}
+
+ul a
+{
+	text-decoration: none;
+	color: black;
+}
+
+ul a:hover
+{
+	color: blue;
+}
+
+p
+{
+	font-size: 32px;
+	color: #52504b;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow:
+	1px 1px 0 #33402a,
+	-1px 1px 0 #33402a,
+	-1px -1px 0 #33402a,
+	1px -1px 0 #33402a;
+}

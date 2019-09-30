@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Budżet osobisty</title>
+	<meta name="description" content="Aplikacja internetowa do prowadzenia budżetu osobistego." />
+	<meta name="keywords" content="css, odcinek" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap&subset=latin-ext" rel="stylesheet">
+	
+</head>
+
+<body>
+	
+	<div id="containerB">
+		
+		<h1 class="balance">Przegląd przychodów i wydatków</h1>
+			
+		<div style="text-align: right;">
+			<label for="period-of-time">Okres czasu</label>
+			<select class="select-css" style="margin-bottom: 10px;">
+				<option value="bm">Bieżacy miesiac</option>
+				<option value="pm">Poprzedni miesiąc</option>
+				<option value="br">Bieżacy rok</option>
+				<option value="nie">Niestandardowy</option>
+			</select>
+		</div>
+		
+		<div class="square">
+			<ul>
+				<li>Kategoria</li>
+			</ul>
+			<p>Suma przychodow:</p>
+		</div>
+		<div class="square">
+			<ul>
+				<li>Kategoria</li>
+			</ul>
+			<p>Suma wydatkow: </p>
+		</div>
+		<div style="clear: both;"></div>
+		<p style="text-align: left;">Bilans:<input type="text" style="width: 200px;" name="saldo" step="1"></p>
+		
+		<div style="text-align: center;">
+			<label><a href="menu.html"><input type="button" value="Wróć"></a></label>
+		</div>
+		
+	</div>
+
+</body>
+</html>
