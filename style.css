@@ -41,9 +41,10 @@ body
 		width: 700px;
 		margin-left: auto;
 		margin-right: auto;
+		margin-top: 50px;
 }
 
-h1.logging
+h1
 {
 		font-family: 'Lato', sans-serif;
 		font-size: 32px;
@@ -57,60 +58,28 @@ h1.logging
 		1px -1px 0 #33402a;
 }
 
-h1.registration
+p
 {
 		font-family: 'Lato', sans-serif;
-		font-size: 32px;
-		color: #52504b;
-		letter-spacing: 1px;
-		font-weight: 400;
-		text-shadow:
-		1px 1px 0 #33402a,
-		-1px 1px 0 #33402a,
-		-1px -1px 0 #33402a,
-		1px -1px 0 #33402a;
+		font-size: 15px;
+		color: #000000;
 }
 
-h1.menu
+a
 {
 		font-family: 'Lato', sans-serif;
-		font-size: 32px;
-		color: #52504b;
-		letter-spacing: 1px;
-		font-weight: 400;
-		text-shadow:
-		1px 1px 0 #33402a,
-		-1px 1px 0 #33402a,
-		-1px -1px 0 #33402a,
-		1px -1px 0 #33402a;
+		font-size: 20px;
+		font-weight: 400px;
+		color: #000000;
+		padding-left: 10px;
+		padding-top: 20px;
+		text-decoration: none;
 }
 
-h1.expenses
+a:hover
 {
-		font-family: 'Lato', sans-serif;
-		font-size: 32px;
-		color: #52504b;
-		letter-spacing: 1px;
-		font-weight: 400;
-		text-shadow:
-		1px 1px 0 #33402a,
-		-1px 1px 0 #33402a,
-		-1px -1px 0 #33402a,
-		1px -1px 0 #33402a;
-}
-
-h1.balance
-{
-		font-family: 'Lato', sans-serif;
-		font-size: 32px;
-		color: #52504b;
-		letter-spacing: 1px;
-		font-weight: 400;
-		text-shadow:
-		1px 1px 0 #33402a,
-		-1px 1px 0 #33402a,
-		-1px -1px 0 #33402a,
-		1px -1px 0 #33402a;
+		color: #1b750d;
+		cursor: pointer;
 }
 
 input[type=text],
@@ -166,30 +135,6 @@ input[type=submit]:focus
 input[type=submit]:hover
 {
 		background-color: #37b93d;
-}
-
-.info
-{
-		font-family: 'Lato', sans-serif;
-		font-size: 15px;
-		color: #52504b;
-		padding-top: 20px;
-}
-
-a
-{
-		font-family: 'Lato', sans-serif;
-		font-size: 18px;
-		font-weight: 700px;
-		color: #000000;
-		padding-left: 10px;
-		padding-top: 20px;
-}
-
-a:hover
-{
-		color: #1b750d;
-		cursor: pointer;
 }
 
 input::-webkit-input-placeholder
@@ -254,15 +199,14 @@ label
 {
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
-	color: #52504b;
+	color: #474147;
 	letter-spacing: 1px;
-	font-weight: 700;
 }
 
 .select-css
 {
 	background-color: #e0d5e0;
-	font-size: 20px;
+	font-size: 15px;
 	color: #000000;
 	padding: 5px;
 	box-sizing: border-box;
@@ -275,16 +219,17 @@ label
 
 .select-css:focus
 {
-	border-radius: 0;
+	border-radius: 10px;
 	background-color: #9ab3ff;
 	outline: none;
+	border: 2px solid #0066ff;
 }
 
 .select-css option
 {
-	font-size: 14px;
+	font-size: 15px;
 	color: #000000;
-	padding: 5px;
+	padding: 20px;
 }
 
 textarea
@@ -379,17 +324,4 @@ ul a
 ul a:hover
 {
 	color: blue;
-}
-
-p
-{
-	font-size: 32px;
-	color: #52504b;
-	letter-spacing: 1px;
-	font-weight: 400;
-	text-shadow:
-	1px 1px 0 #33402a,
-	-1px 1px 0 #33402a,
-	-1px -1px 0 #33402a,
-	1px -1px 0 #33402a;
 }
