@@ -235,7 +235,7 @@ label
 	border-radius: 10px;
 	height: 40px;
 	text-align: center;
-	width: 40%;
+	width: 200px;
 }
 
 .select-css:focus
@@ -251,6 +251,14 @@ label
 	font-size: 15px;
 	color: #000000;
 	padding: 20px;
+	text-align: center;
+}
+
+p.balance
+{
+	text-align: left; 
+	font-size: 30px;
+	color: #c2bec2;
 }
 
 textarea
@@ -274,18 +282,20 @@ textarea:focus
 
 input[type=button]
 {
-	width: 200px;
-	background-color: #0000b3;
-	font-size: 15px;
-	color: white;
+	width: 150px;
+	background-color: #3e3ebd;
+	font-size: 24px;
+	color: #c2bec2;
 	/*margin-left: 50px;*/
-	padding: 10px 10px;
-	border: none;
+	padding: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	border: 20px;
 	border-radius: 10px;
 	cursor: pointer;
 	letter-spacing: 2px;
 	outline: none;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 .expense-buttons
 {
