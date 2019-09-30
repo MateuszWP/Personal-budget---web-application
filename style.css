@@ -24,7 +24,7 @@ body
 #containerE
 {
 		background-color: #a7b2d1;
-		width: 400px;
+		width: 300px;
 		padding: 50px;
 		margin-left: auto;
 		margin-right: auto;
@@ -187,12 +187,33 @@ input[type=number]
 	color: #000000;
 	border: 1px solid #999999;
 	border-radius: 10px;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 	padding: 5px;
 	box-sizing: border-box;
 	/* wylaczenie domyslnej obwodki*/
 	outline: none;
+}
+
+input[type=date]:focus
+{
+		border-radius: 10px;
+		background-color: #9ab3ff;
+		outline: none;
+		border: 2px solid #0066ff;
+}
+
+input[type=number]:focus
+{
+		border-radius: 10px;
+		background-color: #9ab3ff;
+		outline: none;
+		border: 2px solid #0066ff;
+}
+
+.expense  input[type=date], input[type=number]
+{
+		margin-left: 10px;
 }
 
 label
@@ -214,7 +235,7 @@ label
 	border-radius: 10px;
 	height: 40px;
 	text-align: center;
-	
+	width: 40%;
 }
 
 .select-css:focus
